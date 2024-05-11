@@ -126,7 +126,7 @@
     grid-gap: 20px;
     align-items: start;
     margin: 0 auto;
-    max-width: 59%;
+    max-width: 80%;
     padding: 10px;
     background-color: #fff;
     border-radius: 20px;
@@ -153,4 +153,40 @@
     grid-column: 1;
     grid-row: 2;
     align-self: end;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 243, 97, 0.6);
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 80px;
+}
+
+.footer nav{
+    margin: 50px 0;
+}
+
+.item_menu{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.footer nav ul li a:hover{
+    font-weight: 700;
+    color: #fff;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }

@@ -16,7 +16,6 @@ html{
 
 body{
     background-image: linear-gradient(-80deg, rgb(4, 81, 196) 0%, rgb(54, 56, 194) 25%, rgb(35, 22, 104) 51%, #961b48 100%);
-    margin-bottom: 100px;
 }
 
 ul{
@@ -50,7 +49,6 @@ p:hover{
 
 img{
     max-width: 100%;
-    width: 400px;
     display: block;
 }
 
