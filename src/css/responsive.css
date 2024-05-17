@@ -1,5 +1,16 @@
 @media (max-width: 600px){
 
+    .header{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
     /* SEÇÃO COM GRID 1! */
 
     .grid_1{
