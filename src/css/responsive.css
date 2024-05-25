@@ -1,7 +1,9 @@
 @media (max-width: 600px){
 
     .header{
-        flex-direction: column;
+        padding: 0;
+        height: 220px;
+        justify-content: space-around;
         gap: 30px;
     }
 
@@ -9,6 +11,22 @@
         flex-direction: column;
         gap: 15px;
         text-align: center;
+        display: none;
+        margin-top: 10px;
+        transform: scale(0);
+        transition: 2s ease-in-out;
+    }
+
+    .menu.active-mobile{
+        display: flex;
+        transform: scale(1);
+        transition: 2s ease-in-out;
+    }
+
+    .hamburguer{
+        display: block;
+        order: 3;
+        z-index: 1;
     }
 
     /* SEÇÃO COM GRID 1! */

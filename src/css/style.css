@@ -46,6 +46,24 @@
     cursor: pointer;
 }
 
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+}
+
 /* - - - - - - - - - - - - - - - - - -  */
 
 /* SEÇÃO COM FLEX! */
